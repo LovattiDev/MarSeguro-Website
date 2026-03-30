@@ -1,0 +1,42 @@
+/* =========================
+   GLOBAL
+   ========================= */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+    background: #f8f8f6;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    color: #0F2E33;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #2f5d62;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3E4E52;
+    text-align: justify;
+}
+
+small, span, label {
+    color: #6B7C80;
+}
+
+a, strong {
+    color: #2F5D62;
+}

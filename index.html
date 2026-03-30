@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarSeguro</title>
+
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/section/hero-section.css">
+    <link rel="stylesheet" href="style/section/about-section.css">
+    <link rel="stylesheet" href="style/section/social-purpose-section.css">
+    <link rel="stylesheet" href="style/section/contact-section.css">
+    <link rel="stylesheet" href="style/section/dashboard-section.css">
+    <link rel="stylesheet" href="style/section/app-section.css">
+    <link rel="stylesheet" href="style/section/skills-section.css">
+    <link rel="stylesheet" href="style/footer.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+
+</head>
+<body>
+    
+    <!-- HEADER -->
+     <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#social-purpose">Objetivo</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#app">App</a></li>
+                <li><a href="#skills">Tecnologias</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+     </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+
+            <div class="hero-top">
+                <div class="hero-main-text">
+                    <h1>Segurança e Tecnologia<br>Para Quem Vive do Mar</h1>
+                    <h2>MARSEGURO</h2>
+                </div>
+
+            <div class="hero-cta">
+                <p>
+                    O MarSeguro é um aplicativo Android desenvolvido para aumentar a segurança
+                    na navegação de pescadores artesanais, oferecendo informações essenciais em
+                    tempo real e um dashboard de acidentes para apoio à prevenção e tomada de decisão.
+                </p>
+                <a href="project-details.html"> 
+                    <button>Conhecer o projeto</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <video 
+                class="hero-video"
+                src="assets/hero-boat-video.mp4"
+                autoplay
+                muted
+                loop
+                playsinline>
+            </video>
+            
+            <div class="search-card">
+                <div class="item">Carta Náutica<br><strong>Mapa de navegação</strong></div>
+                <div class="item">Localização<br><strong>GPS em tempo real</strong></div>
+                <div class="item">Bússola<br><strong>Direção atual</strong></div>
+                <div class="item">Alertas<br><strong>Áreas de risco</strong></div>
+                <div class="item">Retorno<br><strong>Voltar ao ponto inicial</strong></div>
+            </div>
+        
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="about-container">
+
+            <div class="about-main-content">
+
+                <div class="about-image-card">
+                    <img src="assets/about-image.png">
+                </div>
+
+                <div class="about-text">
+
+                    <h1 class="about-title">
+                        Onde Tudo Começou
+                    </h1>
+                    <h2 class="about-subtitle">
+                        A origem do projeto que ganhou o brasil
+                    </h2>
+
+                    <p>
+                        O projeto teve início no final de 2023, a partir da observação de recorrentes
+                        acidentes com embarcações no litoral sul do Espírito Santo. A análise de dados
+                        oficiais permitiu dimensionar a gravidade do problema, inicialmente por meio de
+                        um dashboard com mapa de acidentes no Brasil. A partir desse diagnóstico, foi
+                        desenvolvido o aplicativo MarSeguro, com foco na prevenção de acidentes e no apoio
+                        à navegação dos pescadores artesanais da região.
+                    </p>
+
+                    <div class="about-list">
+                        <h2>Reconhecimentos</h2>
+                        
+                        <ul>
+                            <li><strong>FINALISTA</strong>MOSTRATEC — Mostra Internacional de Ciência e Tecnologia</li>
+                            <li><strong>FINALISTA</strong>FEBRACE — Feira Brasileira de Ciências e Engenharia</li>
+                            <li><strong>2º LUGAR</strong> Prêmio Mentalidade Marítima — Marinha do Brasil</li>
+                            <li><strong>1º LUGAR</strong>FECINC — Feira de Ciências e Inovação Capixaba</li>
+                            <li><strong>APRESENTAÇÃO TÉCNICA</strong>80º SOEA — Semana Oficial da Engenharia e da Agronomia</li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Objetivo social -->
+    <section id="social-purpose" class="social-purpose-section">
+
+        <!-- TOP -->
+        <div class="social-purpose-top">
+
+            <div class="social-purpose-title">
+                <h1>Para Quem Vive Do Mar</h1>
+                <h2 id="typing-text">Pescadores Artesanais</h2>
+            </div>
+            
+            <p>
+                Acidentes marítimos fazem parte da realidade de milhares de pescadores
+                artesanais no Brasil. <br>
+                O MarSeguro surge como uma ferramenta de apoio, unindo tecnologia,
+                informação e prevenção no dia a dia da navegação.
+            </p>
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="social-purpose-bottom">
+            <div class="swiper-container">
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- G1 -->
+                        <div class="swiper-slide">
+                            <div class="slide-content">
+                                <a 
+                                    href="https://g1.globo.com/es/espirito-santo/sul-es/noticia/2025/04/23/aplicativo-desenvolvido-por-estudantes-do-es-ajuda-pescadores-a-evitar-areas-de-risco-e-acidentes-no-mar.ghtml"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="slide-link">
+                                    <img src="assets/swiper-imgs/swiper-img-1.png" alt="Descrição do slide">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- FEBRACE -->
+                        <div class="swiper-slide">
+                            <div class="slide-content">
+                                <a 
+                                    href="https://virtual.febrace.org.br/2025/ENG/6453/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="slide-link">
+                                    <img src="assets/swiper-imgs/swiper-img-2.png" alt="Descrição do slide">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Espírito Santo Notícias -->
+                        <div class="swiper-slide">
+                            <div class="slide-content">
+                                <a 
+                                    href="https://www.espiritosantonoticias.com.br/tecnologia-capixaba-ganha-os-mares-aplicativo-do-ifes-piuma-vira-destaque-na-tv-gazeta/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="slide-link">
+                                    <img src="assets/swiper-imgs/swiper-img-3.png" alt="Descrição do slide">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ES em Rede -->
+                        <div class="swiper-slide">
+                            <div class="slide-content">
+                                <a 
+                                    href="https://esemrede.com.br/estudantes-do-espirito-santo-criam-app-que-ajuda-pescadores-a-evitarem-areas-perigosas-no-mar-e-reduzirem-acidentes/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="slide-link">
+                                    <img src="assets/swiper-imgs/swiper-img-4.png" alt="Descrição do slide">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ESX -->
+                        <div class="swiper-slide">
+                            <div class="slide-content">
+                                <a 
+                                    href="https://agifes.ifes.edu.br/ifes-abre-participacao-no-esx-2025-com-projetos-inovadores-e-protagonismo-estudantil/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="slide-link">
+                                    <img src="assets/swiper-imgs/swiper-img-5.png" alt="Descrição do slide">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="bx bx-left-arrow-alt"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="bx bx-right-arrow-alt"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Dashboard -->
+    <section id="dashboard" class="dashboard-section">
+        <div class="dashboard-container">
+            
+            <div class="dashboard-title">
+                <h1>Dashboard</h1>
+                <h2>PowerBI</h2>
+            </div>
+
+            <div class="dashboard-iframe">
+                <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMDQxZjE2ZGQtMDMyMC00Yjg0LThiYjEtMDhiMjJmMmM0ZWU0IiwidCI6IjQ0ZTllMTcyLWZmYTUtNDNmMy1iMjJjLTM3MWNmY2QyNzJlZCJ9"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- App -->
+    <section id="app" class="app-section">
+        <div class="app-container">
+
+            <div class="app-top">
+
+                <div class="app-left">
+                    <h1>Aplicativo Inteligente</h1>
+                    <h2 id="app-subtitle">Navegue com mais segurança</h2>
+                </div>
+
+                <div class="app-right">
+                    <p>
+                        Nossa solução analisa o histórico de acidentes na região para apoiar decisões mais seguras durante a navegação.
+                        O aplicativo conta com bússola integrada e função “Voltar para Casa”, que indica por meio de uma seta
+                        a direção do ponto inicial da navegação. Tudo funciona de forma totalmente offline,
+                        garantindo segurança mesmo sem conexão com a internet.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="app-bottom">
+                <div class="app-image-wrapper">
+                    <img src="assets/app-imgs/shadow-img.png" class="app-shadow" alt="Sombra do aplicativo">
+                    <img src="assets/app-imgs/device-img.png" class="app-main" alt="Preview do Aplicativo">
+                </div>
+                <div id="app-button">
+                    <a id="app-button-link" href="app.html"><span>Sobre o App!</span></a>
+                </div>
+            </div>
+
+        </div>    
+    </section>
+
+    <!-- Tecnologias -->
+    <section id="skills" class="skills-section">
+        
+        <div class="skills-top">
+            <div class="skills-title">
+                <h1>Tecnologias Utilizadas</h1>
+                <h2>Todas as tecnologias usadas no projeto</h2>
+            </div>
+        </div>
+
+        <div class="skills-botton">
+            <div class="skills-grid">
+
+                <div class="skills-item">
+                    <img src="assets/skills-imgs/android.png">
+                </div>
+                <div class="skills-item">
+                    <img src="assets/skills-imgs/java.png">
+                </div>
+                <div class="skills-item">
+                    <img src="assets/skills-imgs/xml.png">
+                </div>
+                <div class="skills-item">
+                    <img src="assets/skills-imgs/powerbi.png">
+                </div>
+                <div class="skills-item">
+                    <img src="assets/skills-imgs/sqlite.png">
+                </div>
+                <div class="skills-item">
+                    <img src="assets/skills-imgs/python.png">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+
+            <div class="contatc-title">
+                <h1>Entre em Contato</h1>
+                <h2>Siga Nossas Redes</h2>
+            </div>
+
+            <form class="contact-form" action="https://formsubmit.io/send/matheusamorimlovatti@gmail.com" method="post">
+
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input 
+                        type="text" 
+                        id="name" 
+                        name="name" 
+                        placeholder="Seu nome completo"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="seu@email.com"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        placeholder="Escreva sua mensagem..."
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">Enviar mensagem</button>
+
+            </form>
+
+            <div class="contact-social-medias">
+                <ul class="contact-social-media-list">
+                    <li>
+                        <a href="https://www.instagram.com/mar.seguro_/">
+                            <i class="bx bxl-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/marseguro-tecnologia-e-informa%C3%A7%C3%A3o/">
+                            <i class="bx bxl-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+
+            <h3>MarSeguro</h3>
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#social-purpose">Objetivo</a></li>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#app">App</a></li>
+                    <li><a href="#skills">Tecnologias</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <span>Copyright &copy; 2026 All rights reserved | This website was made by <span class="footer-dev-name-span">Matheus A. Lovatti</span></span>
+
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/social-purpose-swiper.js"></script>
+    <script src="script/typing.js"></script>
+    <script src="script/button-sound.js"></script>
+
+</body>
+</html>
