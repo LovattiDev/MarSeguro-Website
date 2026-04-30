@@ -1,32 +1,48 @@
+.container {
+  max-width: 1200px;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+/* =========================
+   TITLE
+========================= */
 .title-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 130px;
     gap: 40px;
+    text-align: center;
 }
 
 .title-container p {
     max-width: 667px;
 }
 
+/* =========================
+   TABLE WRAPPER (IMPORTANTE)
+========================= */
 .table-container {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: 60px 0;
+    width: 100%;
+    overflow-x: auto; 
 }
 
+/* TABELA */
 table {
     border-collapse: collapse;
-    width: 750px;
+    width: 100%;
+    max-width: 750px;
+    min-width: 600px;
     background: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
 
-/* Cabeçalho */
 thead {
     background: white;
     border-bottom: 2px solid #e5e5e7;
@@ -40,7 +56,6 @@ thead th {
     text-align: left;
 }
 
-/* Corpo da tabela */
 td {
     padding: 18px 24px;
     font-size: 16px;
@@ -51,7 +66,8 @@ tr:not(:last-child) td {
     border-bottom: 1px solid #f2f2f2;
 }
 
-td:last-child, th:last-child {
+td:last-child,
+th:last-child {
     text-align: right;
 }
 
@@ -62,4 +78,51 @@ tr:hover {
 
 .version-column {
     text-align: center;
+}
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+@media (max-width: 1024px) {
+  .title-container {
+    padding-top: 100px;
+  }
+
+  table {
+    min-width: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-container {
+    padding-top: 80px;
+    gap: 24px;
+  }
+
+  .title-container p {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  table {
+    min-width: 500px;
+  }
+
+  thead th,
+  td {
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+    min-width: 450px;
+  }
+
+  thead th,
+  td {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
 }

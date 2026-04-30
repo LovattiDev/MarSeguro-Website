@@ -10,7 +10,6 @@
     z-index: 100;
 }
 
-/* NAV CONTAINER */
 .nav {
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(10px);
@@ -19,14 +18,12 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-/* NAV LIST */
 .nav-list {
     display: flex;
     gap: 32px;
     list-style: none;
 }
 
-/* NAV LINKS */
 .nav-list a {
     text-decoration: none;
     font-size: 14px;
@@ -38,7 +35,6 @@
     color: #000;
 }
 
-/* NAV LINK ATIVO */
 .nav-list a.active {
     color: #000;
     font-weight: 500;

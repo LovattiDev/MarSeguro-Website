@@ -1,7 +1,6 @@
 /* =========================
    SOCIAL PURPOSE SECTION
 ========================= */
-
 .social-purpose-section {
     width: min(47rem, 90%);
     margin: 0 auto;
@@ -20,7 +19,6 @@
     content: "";
     position: absolute;
 
-    /* Faz o fundo ocupar a tela inteira */
     left: 50%;
     transform: translateX(-50%);
     width: 100vw;
@@ -31,10 +29,6 @@
 
     background: #e7f3ee;
 }
-
-/* =========================
-   TOP CONTENT
-========================= */
 
 .social-purpose-top {
     max-width: 700px;
@@ -57,10 +51,6 @@
     0%, 50%, 100% { opacity: 1; }
     25%, 75% { opacity: 0; }
 }
-
-/* =========================
-   BOTTOM / SWIPER
-========================= */
 
 .social-purpose-bottom {
     position: relative;
@@ -107,10 +97,6 @@
     border-radius: 10px;
     display: block;
 }
-
-/* =========================
-   NAVIGATION BUTTONS
-========================= */
 
 .swiper-button-prev,
 .swiper-button-next {

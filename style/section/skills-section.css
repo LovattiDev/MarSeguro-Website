@@ -1,36 +1,75 @@
+/* =========================
+   SKILLS SECTION
+========================= */
 .skills-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 60px 20px;
 }
 
 .skills-top {
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .skills-grid {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: repeat(3, 150px);
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
 }
 
 .skills-item {
     display: flex;
     justify-content: center;
+    align-items: center;
+
     background-color: white;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    margin: 20px;
     padding: 20px;
     border-radius: 20px;
 
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .skills-item:hover {
-    transition: 0.5s;
-    transform: scale(1.15);
+    transform: scale(1.08);
 }
 
 .skills-item img {
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 150px);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 40px 16px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 150px);
+    gap: 16px;
+  }
+
+  .skills-item {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-grid {
+    gap: 12px;
+  }
+
+  .skills-item:hover {
+    transform: scale(1.04);
+  }
 }
