@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
             thresholdDelta: 70
         },
 
-        // 🔹 importante para links clicáveis nos slides
         preventClicks: false,
         preventClicksPropagation: false,
 
